@@ -4,22 +4,6 @@ OpenOpticLink is a static web app that sends short messages between ordinary pho
 
 The app is designed for GitHub Pages. Open it on two phones, install it as a PWA if you want offline use, put the phones in airplane mode, and send a message by pointing one phone camera at the other phone screen.
 
-## What it does
-
-| Feature | Status |
-| --- | --- |
-| Full-screen white/black pulse transmission | Built |
-| Camera brightness receiver | Built |
-| GitHub Pages static hosting | Built |
-| Offline PWA cache after first load | Built |
-| Message templates | Built |
-| Store-and-forward relay mode | Built |
-| Browser diagnostics | Built |
-| Protocol tests | Built |
-| QR or barcode transfer | Deliberately not used |
-| Native flashlight control | Not a dependency |
-| Encryption | Out of scope |
-
 ## Why pulses?
 
 OpenOpticLink uses the whole screen as the signal. The receiver only needs to detect timed brightness changes across the camera image.
