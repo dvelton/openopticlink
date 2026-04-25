@@ -1,0 +1,16 @@
+{
+  "name": "OpenOpticLink",
+  "short_name": "OpticLink",
+  "description": "Phone-to-phone optical messaging using only screen light and camera.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
