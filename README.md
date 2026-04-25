@@ -20,9 +20,9 @@ The app is designed for GitHub Pages. Open it on two phones, install it as a PWA
 | Native flashlight control | Not a dependency |
 | Encryption | Out of scope |
 
-## Why pulses instead of QR codes?
+## Why pulses?
 
-QR transfer is useful at close range, but it is well-trodden territory and requires the receiver to resolve a detailed image. OpenOpticLink uses the whole screen as the signal. The receiver only needs to detect timed brightness changes across the camera image.
+OpenOpticLink uses the whole screen as the signal. The receiver only needs to detect timed brightness changes across the camera image.
 
 That makes the project lower bandwidth, but more interesting for distance-oriented optical signaling. The design goal is not "send files quickly." It is "send short, useful messages as far as ordinary phone screens and cameras can reasonably manage."
 
@@ -64,15 +64,6 @@ OpenOpticLink works as an installable PWA. Load it once while online, install it
 3. Launch it once while online.
 
 To confirm offline mode works, turn on airplane mode and open the installed app from the home screen. The app should load. Camera access still depends on the browser and device permissions, so grant camera permission when prompted.
-
-## Pulse profiles
-
-| Profile | Best use | Symbol timing |
-| --- | --- | --- |
-| QuickLink | Nearby hand-to-hand transfer | 180 ms per light/dark symbol |
-| FieldLink | General use | 360 ms per symbol |
-| PulseLink Far | Several meters with steady hands or camera zoom | 760 ms per symbol |
-| PulseLink Beacon | Short status messages in favorable long-range conditions | 1400 ms per symbol |
 
 ## Why this exists
 
